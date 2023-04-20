@@ -4,6 +4,34 @@
 .minor-section {
     padding: 10px;
     margin-bottom: 10px;
-    border: solid 1px #888;
-    background-color: #DDD8C4;
+    border: solid 1px #6a9ece;
+    background-color: #a0caf0;
+  }
+
+  #screenshot {
+    width: 700px;
+  }
+
+  #ss1 {
+    width: 700px;
+  }
+
+  #ss2 {
+    width: 700px;
+  }
+
+  #ss3 {
+    width: 700px;
+  }
+
+  #ss4 {
+    width: 700px;
+  }
+
+  #ss5 {
+    width: 700px;
+  }
+
+  #ss6 {
+    width: 700px;
   }
