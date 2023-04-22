@@ -21,3 +21,7 @@ p {
   border: dashed 10px magenta;
 
 }
+
+#home {
+  width: 25px;
+}
