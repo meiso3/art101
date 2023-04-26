@@ -1,0 +1,10 @@
+
+Creating a rock-paper-scissors game:
+
+Print images of 'rock' 'paper' and 'scissors'.
+Print a timer for each player.
+    Timer starts counting down from 10 seconds.
+Accept user input from both ends.
+    If no user input is obtained from both players, the game restarts.
+After the timer reaches 0, print both user inputs on screen.
+Identify the winner.
