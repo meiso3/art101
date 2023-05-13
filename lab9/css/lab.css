@@ -25,7 +25,7 @@ html {
 }
 
 #content {
-  border: linear-gradient(in hsl longer hue 45deg, red 0 0);
+  border: solid 1px white;
   background: linear-gradient(in hsl longer hue 45deg, red 0 0);
 }
 

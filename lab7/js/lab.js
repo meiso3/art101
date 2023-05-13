@@ -25,7 +25,7 @@ function sortUser() {
 }
 
 function createAnagram(){
-  let user = sortUser();
+  let user = sortUser(); //call the sortUser function
 
   const anaArr = user.split('');
   const shuffleArr = anaArr.sort(() => 0.5 - Math.random()); // shuffles letters
