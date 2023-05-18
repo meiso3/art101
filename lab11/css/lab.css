@@ -1,0 +1,21 @@
+/* Here we can set styles for this lab page that we don't want to effect others pages */
+
+/* the period in a CSS selector selects an element by class, e.g., class="minor-section" */
+.minor-section {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: solid 1px #888;
+    background-color: #c3ebbd;
+  }
+
+button {
+  background-color: rgb(255, 255, 255)
+}
+
+#home {
+  width: 25px;
+}
+
+#content {
+  background-color: #42ac6b;
+}
