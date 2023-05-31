@@ -2,7 +2,7 @@
 <html>
 <head>
 	<!-- This title is used for tabs and bookmarks -->
-	<title>Lab 7 - Functions</title>
+	<title>Lab 15 - AJAX</title>
 
 	<!-- Use UTF character set, a good idea with any webpage -->
   	<meta charset="UTF-8" />
@@ -16,31 +16,34 @@
 	
 	<!-- load jQuery library to make javascript easier (must be above our lab js)-->
 	<script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+	<!-- Link to javascript file - DEFER waits until all elements are rendered -->
+	<script type="text/javascript" src="./js/lab.js" DEFER></script>
 </head>
 <body>
 	<!-- Style this page by changing the CSS in ../css/site.css or css/lab.css -->
 	<main id="content">
 		<section>
-			<h1>Lab 7 - Functions</h1>
+			<h1>Lab 15 - AJAX</h1>
 			<div class="minor-section">
 					<h2>Challenge</h2>
-					<p>We have to write functions that take user input and manipulate a string.</p>
+					<p>Working with your partner, experiment with jQuery and AJAX.</p>
 			</div>
 
 			<div class="minor-section">
 					<h2>Problems</h2>
-					<p>One problem that occurred was that my function called on the JavaScript file twice so the pop-up window would consecutively show up twice. Diane helped me fix this problem. </p>
+					<p>This lab was tricky in some parts, such as adding the button on top of the picture. We had to research how to add containers to our files. For the API, we had some small issues like how some categories under the Pokemon API had too many strings. </p>
+			</div>
+
 			</div>
 
 			<div class="minor-section">
-					<h2>Results</h2>
-					<p>My results are shown below.</p>
-					<div class="output">
-						<h3>Script Output</h3>
-						<script src="js/lab.js"></script>
-					</div>
-			</div>
+                <h2>Results<img id="diglettgif" src="../lab15/img/diglett.gif"/></h2>
+                <img src="../lab15/img/diglettcave.jpg">
+                <button class="btn">Where are we?</button>
+				<div id="output"></div>
+            </div>
 
+			</div>
 		</section>
 		<nav id="links">
 			<!-- Put links to other pages (including the homepage) here. -->

@@ -1,0 +1,69 @@
+/* Here we can set styles for this lab page that we don't want to effect others pages */
+
+/* the period in a CSS selector selects an element by class, e.g., class="minor-section" */
+.minor-section {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: solid 1px #888;
+    background-color: #ebccb8;
+    font-family: monospace;
+  }
+
+  .minor-section #output {
+    position: absolute;
+    top: 110%;
+    left: 20%;
+  }
+  
+  #content {
+    background-color: #a7724f;
+  }
+  
+  body {
+    background-color: #6f4d36;
+  }
+
+/* Container needed to position the button. Adjust the width as needed /
+.container {
+  position: relative;
+  width: 50%;
+}
+
+/ Make the image responsive /
+.minor-section img {
+  width: 100%;
+  height: auto;
+}
+
+/ Style the button and place it in the middle of the container/image */
+.minor-section .btn {
+  position: absolute;
+  top: 100%;
+  left: 40%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #000000;
+  color: tan;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.minor-section .btn:hover {
+  background-color: rgb(66, 65, 65);
+}
+
+#output {
+  font-size: large;
+  font-weight: bold;
+  color: white;
+}
+
+#diglettgif {
+  width: 60px;
+  position:absolute;
+  left: 12%;
+  top: 50%;
+}
