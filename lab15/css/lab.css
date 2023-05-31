@@ -10,9 +10,9 @@
   }
 
   .minor-section #output {
-    position: relative;
-    top: 110%;
-    left: 20%;
+    position: absolute;
+    top: 90%;
+    left: 17%;
   }
 
   #home {
@@ -41,9 +41,9 @@
 
 / Style the button and place it in the middle of the container/image */
 .minor-section .btn {
-  position: relative;
-  top: 100%;
-  left: 40%;
+  position: absolute;
+  top: 85%;
+  left: 35%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   background-color: #000000;
@@ -67,7 +67,7 @@
 
 #diglettgif {
   width: 60px;
-  position:relative;
-  left: 12%;
-  top: 50%;
+  position:absolute;
+  left: 10%;
+  top: 44%;
 }
